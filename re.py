@@ -9,6 +9,7 @@ DROP TABLE IF EXISTS Counts''')
 
 cur.execute('''
 CREATE TABLE Counts (email TEXT, count INTEGER, mount TEXT)''')
+
 def poisk(filename):
     openfile=open(filename)
     spisok=[]
